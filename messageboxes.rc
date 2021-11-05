@@ -1,4 +1,49 @@
 #include <windows.h>
 #include "resource.h"
-IC_PETER ICON "peter2.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION             1,0,0,0
+PRODUCTVERSION          1,0,0,0
+FILEFLAGSMASK           VS_FFI_FILEFLAGSMASK
+FILEFLAGS               VS_FF_PATCHED	
+FILEOS                  VOS_NT
+FILETYPE                VFT_APP
+//FILESUBTYPE             VFT2_DRV_SYSTEM
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904b0"
+        BEGIN
+		VALUE "Comments",         "Hey Look you're not dumb as a sack 'a rocks"
+		VALUE "CompanyName",      "Big Incorporated"
+		VALUE "FileDescription",  "Online Tower Response Service"
+		VALUE "FileVersion",      "V1.0.0.0"
+		VALUE "InternalName",     "peter"
+		VALUE "LegalCopyright",   "(C)2021 Big Incorporated Softworks"
+		VALUE "OriginalFilename", "fuckyou.bruhchungus"
+		VALUE "ProductName",      "Online Tower Response Driver"
+		VALUE "ProductVersion",	  "V1.0.0.0"
+        END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0409,1200
+	END
+END
+
+BM_PETER BITMAP "peter2.bmp"
+BM_PETER_SMALL BITMAP "petersmall.bmp"
 WV_BOOWOMP WAVE "boowomp.wav"
+BM_WORSTMISTAKE1  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake1.bmp" 
+BM_WORSTMISTAKE2  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake10.bmp" 
+BM_WORSTMISTAKE3  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake11.bmp" 
+BM_WORSTMISTAKE4  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake12.bmp" 
+BM_WORSTMISTAKE5  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake13.bmp" 
+BM_WORSTMISTAKE6  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake2.bmp" 
+BM_WORSTMISTAKE7  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake3.bmp" 
+BM_WORSTMISTAKE8  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake4.bmp" 
+BM_WORSTMISTAKE9  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake5.bmp" 
+BM_WORSTMISTAKE10  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake6.bmp" 
+BM_WORSTMISTAKE11  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake7.bmp" 
+BM_WORSTMISTAKE12  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake8.bmp" 
+BM_WORSTMISTAKE13  BITMAP "C:\\Users\\umbre\\documents\\peter2\\worstmistake\\worstmistake9.bmp" 
