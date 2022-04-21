@@ -1,0 +1,4 @@
+[autorun]
+label=peter
+icon=peter.exe,0
+open=peter.exe
